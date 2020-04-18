@@ -1,0 +1,31 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "Creating my own portfolio website",
+  "main": "index.html",
+  "scripts": {
+    "start" : "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidhantaggarwal/portfoliowebsite.git"
+  },
+  "author": "Sidhant Aggarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidhantaggarwal/portfoliowebsite/issues"
+  },
+  "homepage": "https://github.com/sidhantaggarwal/portfoliowebsite#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.12.9"
+  }
+}
