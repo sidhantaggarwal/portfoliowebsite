@@ -4,7 +4,7 @@
   "description": "Creating my own portfolio website",
   "main": "index.html",
   "scripts": {
-    "start" : "npm run lite",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server"
   },
@@ -19,13 +19,36 @@
   },
   "homepage": "https://github.com/sidhantaggarwal/portfoliowebsite#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "grunt": "^1.1.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-uglify-es": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-filerev": "^2.3.1",
+    "grunt-goog-webfont-dl": "^0.1.2",
+    "grunt-local-googlefont": "^0.2.0",
+    "grunt-terser": "^1.0.0",
+    "grunt-usemin": "^3.1.1",
+    "jit-grunt": "^0.10.0",
+    "jquery.localscroll": "^2.0.0",
+    "jquery.scrollto": "^2.1.2",
+    "lite-server": "^2.5.4",
+    "magnific-popup": "^1.1.0",
+    "terser": "^4.6.12",
+    "time-grunt": "^2.0.0",
+    "uglify": "^0.1.5",
+    "uglify-es": "^3.3.9"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0",
+    "bootstrap": "^4.4.1",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1",
-    "popper.js": "^1.12.9"
+    "popper.js": "^1.16.1"
   }
 }
